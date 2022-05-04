@@ -26,7 +26,7 @@ pipeline{
             steps {
                 sh '''
                     oc project fyurid-greetings
-                    oc start-build greeting-console --follow--wait
+                    oc start-build greeting-console --follow --wait
                 '''
             }
         }
